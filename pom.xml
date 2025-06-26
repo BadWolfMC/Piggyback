@@ -1,19 +1,18 @@
 <!-- PiggyBack build file -->
-    <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>me.blubdalegend</groupId>
     <artifactId>piggyback</artifactId>
     <version>2.5</version>
     <name>Piggyback</name>
-
     <!-- Properties -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <build.number>Unknown</build.number>
     </properties>
-
     <!-- Repositories -->
     <repositories>
         <repository>
@@ -21,25 +20,25 @@
             <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
         </repository>
         <repository>
-			<id>md_5-repo</id>
-			<url>http://repo.md-5.net/content/groups/public/</url>
-		</repository>
-		<repository>
-			<id>drkmatr1984-repo</id>
-			<url>https://minevolt.net/repo/</url>
-		</repository>
+            <id>md_5-repo</id>
+            <url>https://repo.md-5.net/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>drkmatr1984-repo</id>
+            <url>https://minevolt.net/repo/</url>
+        </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>http://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
-		<repository>
+        <repository>
             <id>mvdw-software</id>
             <name>MVdW Public Repositories</name>
-            <url>http://repo.mvdw-software.be/content/groups/public/</url>
+            <url>https://repo.mvdw-software.be/content/groups/public/</url>
         </repository>
         <repository>
             <id>sk89q-repo</id>
-            <url>http://maven.sk89q.com/repo/</url>
+            <url>https://maven.sk89q.com/repo/</url>
         </repository>
         <repository>
             <id>enginehub-repo</id>
@@ -67,7 +66,7 @@
             <artifactId>h2</artifactId>
             <version>1.4.200</version>
         </dependency>
-         <dependency>
+        <dependency>
             <groupId>com.github.TownyAdvanced</groupId>
             <artifactId>Towny</artifactId>
             <version>0.100.3.0</version>
@@ -94,10 +93,10 @@
             <version>2.9.2</version>
         </dependency>
         <dependency>
-           <groupId>be.maximvdw</groupId>
-           <artifactId>MVdWPlaceholderAPI</artifactId>
-           <version>3.1.1-SNAPSHOT</version>
-           <scope>provided</scope>
+            <groupId>be.maximvdw</groupId>
+            <artifactId>MVdWPlaceholderAPI</artifactId>
+            <version>3.1.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.sk89q.worldguard</groupId>
@@ -221,5 +220,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
